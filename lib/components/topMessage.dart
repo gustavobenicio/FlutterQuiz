@@ -10,7 +10,7 @@ class TopMessage extends StatelessWidget {
 
     var mesageToShow = responseBoolean == null
         ? responseStatus == 'start'
-            ? "😎 Olá Gustavo !!"
+            ? "😎 Vamos lá, boa sorte !!"
             : "😎 Good Game !!"
         : responseStatus == 'true'
             ? "😁 Acertou "
